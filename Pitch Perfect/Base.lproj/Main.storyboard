@@ -59,12 +59,12 @@
                                 <exclude reference="506-iS-ddE"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="5mq-ns-fE0"/>
-                                <exclude reference="Tvm-8M-Vha"/>
                                 <exclude reference="VHI-GF-vi6"/>
                                 <exclude reference="z8O-Ye-Ruq"/>
-                                <exclude reference="qlh-3S-UhU"/>
                                 <exclude reference="9Fx-uw-i2T"/>
+                                <exclude reference="qlh-3S-UhU"/>
+                                <exclude reference="5mq-ns-fE0"/>
+                                <exclude reference="Tvm-8M-Vha"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -74,12 +74,12 @@
                                 <include reference="506-iS-ddE"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="5mq-ns-fE0"/>
-                                <include reference="Tvm-8M-Vha"/>
                                 <include reference="VHI-GF-vi6"/>
                                 <include reference="z8O-Ye-Ruq"/>
-                                <include reference="qlh-3S-UhU"/>
                                 <include reference="9Fx-uw-i2T"/>
+                                <include reference="qlh-3S-UhU"/>
+                                <include reference="5mq-ns-fE0"/>
+                                <include reference="Tvm-8M-Vha"/>
                             </mask>
                         </variation>
                     </view>
@@ -131,7 +131,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="stopAudio:" destination="ml9-7D-WT8" eventType="touchUpInside" id="ajr-jW-YTC"/>
+                                    <action selector="stopPlayback:" destination="ml9-7D-WT8" eventType="touchUpInside" id="3uB-lc-QZr"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gka-e2-DT3">
